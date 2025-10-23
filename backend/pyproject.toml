@@ -1,0 +1,22 @@
+# 模块说明: HeartLink 后端 Python 项目的基础构建配置文件。
+# build-system 配置声明使用 setuptools 作为构建工具。
+[build-system]
+# requires 字段列出构建时所需的最小依赖。
+requires = ["setuptools>=65", "wheel"]
+# build-backend 指定构建后端实现。
+build-backend = "setuptools.build_meta"
+
+# project 表区包含包的基础元数据。
+[project]
+# name 字段用于标识项目包名称。
+name = "heartlink-backend"
+# version 字段声明当前后端占位版本。
+version = "0.1.0"
+# description 字段概述包用途。
+description = "HeartLink backend bootstrap configuration"
+# readme 字段指向项目描述文件。
+readme = "../README.md"
+# requires-python 字段约束 Python 兼容版本。
+requires-python = ">=3.9"
+# dependencies 列出运行时依赖，此处暂为空列表。
+dependencies = []
